@@ -1,12 +1,11 @@
 {
     "manifest_version": 3,
     "name": "ZSXQ Copy Unlocker",
-<<<<<<< HEAD
-    "version": "1.1",
+    "version": "1.2",
     "content_scripts": [{
       "matches": ["*://*.zsxq.com/*"],
       "js": ["content.js"],
-      "run_at": "document_end",
+      "run_at": "document_start",
       "css": ["override.css"],
       "all_frames": true
     }],
@@ -16,12 +15,4 @@
     "permissions": [
       "scripting"
     ]
-=======
-    "version": "1.0",
-    "content_scripts": [{
-      "matches": ["https://articles.zsxq.com/*.html"],
-      "js": ["content.js"],
-      "run_at": "document_end"
-    }]
->>>>>>> 50f5afc4cec478a77d55feadfe0a72681ffcb2f6
   }
