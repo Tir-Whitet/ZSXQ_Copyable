@@ -1,0 +1,12 @@
+/* 强制覆盖所有元素的选择限制 */
+* {
+    user-select: auto !important;
+    -webkit-user-select: auto !important;
+  }
+  
+  /* 解除右键菜单限制 */
+  body {
+    -webkit-touch-callout: default !important;
+    -webkit-user-drag: auto !important;
+  }
+  
